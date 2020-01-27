@@ -41,7 +41,8 @@ head(us_census)
 ```{r error=TRUE}
 # remove % from race columns
 us_census <- us_census %>% 
-  mutate( 'Hispanic'=gsub('\\%',' ', Hispanic),           'White'=gsub('\\%',' ', White),
+  mutate( 'Hispanic'=gsub('\\%',' ', Hispanic),
+          'White'=gsub('\\%',' ', White),
           'Black'=gsub('\\%',' ', Black),
           'Native'=gsub('\\%',' ', Native),
           'Asian'=gsub('\\%',' ', Asian),
@@ -49,12 +50,6 @@ us_census <- us_census %>%
 
 
 head(us_census)
-
-
-
-
-
-
 
 ```
 
