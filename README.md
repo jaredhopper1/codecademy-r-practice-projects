@@ -1,2 +1,2 @@
 # codecademy-r-us_census
-Cleaning US Census Data with R
+All of my R programming projects in the codecademy course. Mainly serves as a reference point. 
